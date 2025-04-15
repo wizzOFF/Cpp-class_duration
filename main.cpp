@@ -17,9 +17,9 @@ int main()
     //resultat = duree1 + duree2 + duree3;
     //resultat = operator+(operator+(duree1,duree2), duree3);
 
-    resultat = duree1 + 10;
+    resultat = duree1 + 3600;
  
-    cout << "+ 10 secondes =" << endl;
+    cout << "+ 1 heure =" << endl;
     resultat.afficher();
 
     return 0;
