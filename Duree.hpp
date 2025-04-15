@@ -8,6 +8,7 @@ public:
     Duree& operator+=(const Duree &duree);
     Duree& operator+=(int secondes);
     void afficher() const;
+    void afficher(std::ostream &flux) const;
 
 private:
     int m_heures;

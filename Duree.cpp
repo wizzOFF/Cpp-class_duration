@@ -53,3 +53,14 @@ Duree operator+(Duree const& duree, int secondes)
     copie += secondes;
     return copie;
 }
+
+ostream& operator<<( ostream &flux, Duree const& duree)
+{
+    duree.afficher(flux) ;
+    return flux;
+}
+
+void Duree::afficher(ostream &flux) const
+{
+    flux << m_heures << "h" << m_minutes << "m" << m_secondes << "s";
+}
