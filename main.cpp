@@ -23,7 +23,9 @@ int main()
     resultat.afficher();
     */
 
-    cout << duree1 << " et " << duree2 << endl;
+    //cout << duree1 << " et " << duree2 << endl;
+
+    cout << duree1 + duree2 << endl;
 
     return 0;
 }
