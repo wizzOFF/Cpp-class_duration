@@ -16,11 +16,14 @@ int main()
 
     //resultat = duree1 + duree2 + duree3;
     //resultat = operator+(operator+(duree1,duree2), duree3);
-
+    /*
     resultat = duree1 + 3600;
  
     cout << "+ 1 heure =" << endl;
     resultat.afficher();
+    */
+
+    cout << duree1 << " et " << duree2 << endl;
 
     return 0;
 }
