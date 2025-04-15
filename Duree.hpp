@@ -6,6 +6,7 @@ class Duree
 public:
     Duree(int heures = 0, int minutes = 0, int secondes = 0);
     Duree& operator+=(const Duree &duree);
+    Duree& operator+=(int secondes);
     void afficher() const;
 
 private:
@@ -15,5 +16,6 @@ private:
 };
 
 Duree operator+(Duree const& a, Duree const& b);
+Duree operator+(Duree const& a, int secondes);
 
 #endif

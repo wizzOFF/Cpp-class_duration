@@ -9,15 +9,17 @@ int main()
     Duree resultat;
 
     duree1.afficher();
-    cout << "+" << endl;
-    duree2.afficher();
-    cout << "+" << endl;
-    duree3.afficher();
+    //cout << "+" << endl;
+    //duree2.afficher();
+    //cout << "+" << endl;
+    //duree3.afficher();
 
     //resultat = duree1 + duree2 + duree3;
-    resultat = operator+(operator+(duree1,duree2), duree3);
+    //resultat = operator+(operator+(duree1,duree2), duree3);
 
-    cout << "=" << endl;
+    resultat = duree1 + 10;
+ 
+    cout << "+ 10 secondes =" << endl;
     resultat.afficher();
 
     return 0;
