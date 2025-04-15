@@ -14,7 +14,8 @@ int main()
     cout << "+" << endl;
     duree3.afficher();
 
-    resultat = duree1 + duree2 + duree3;
+    //resultat = duree1 + duree2 + duree3;
+    resultat = operator+(operator+(duree1,duree2), duree3);
 
     cout << "=" << endl;
     resultat.afficher();
